@@ -1,4 +1,4 @@
-import fetchCartData from '../navbar/navbar.js';
+
 $(document).ready(function () {
     $('.cart').click(function () {
         var id = $(this).data('id');
@@ -20,25 +20,25 @@ $(document).ready(function () {
                     console.log('data is not empty');
                     const idToFind = id;
                     const product = findProductById(data, idToFind)['name'];
-                    const subtotal = JSON.parse(data).reduce((acc, item) => acc + item.price * item.quantity, 0).toFixed(2);
+                    const subtotal = JSON.parse(data).reduce((acc, item) => acc + item.price * item.quantity, 0).toFixed(3);
 
                     swal({
-                        title: "Product added to cart!",
-                        text: `${product} has been added to your cart. Subtotal: $${subtotal}.`,
+                        title: "Exito!",
+                        text: `${product} ha sido agregado al carrito. Subtotal: CRC ${subtotal}.`,
                         icon: "success",
                         button: "OK",
                     });
-                    fetchCartData();
+                    //fetchCartData();
                     return true;
                 } if (data.length === 0) {
                     //data is an object
                     console.log('data is empty');
-                    const product = 'data';
-                    const subtotal = "freeee!";
+                    const product = 'producto';
+                    const subtotal = "0.00";
 
                     swal({
-                        title: "Product added to cart!",
-                        text: `${product} has been added to your cart. Subtotal: $${subtotal}.`,
+                        title: "Exito!",
+                        text: `${product} ha sido agregado al carrito. Subtotal: CRC ${subtotal}.`,
                         icon: "success",
                         button: "OK",
                     });
@@ -73,3 +73,11 @@ function findProductById(data, id) {
 
     // return null; // Return null if the product is not found
 }
+//ver detalles del producto(navegar hacia la pagina del producto)
+$(document).ready(function () {
+    $('#detalles').click(function () {
+        var id = $(this).data('id');
+        console.log('id', id);
+        window.location.href = 'http://localhost/whycux/single_product.php?id=' + id;
+    });
+});

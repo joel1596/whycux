@@ -36,7 +36,7 @@
 
 <body>
     <?php
-    include 'components/navbar/navbar.php';
+    include 'components/preNavbar/index.php';
     ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
@@ -55,7 +55,7 @@
                 <div class="col-md-6">
                     <h1>Bienvenido a nuestra tienda de ropa</h1>
                     <p>Aquí encontrarás las últimas tendencias en moda a precios asequibles.</p>
-                    <a href="products.php" class="btn btn-primary">Ver Productos</a>
+                    <a href="login.php" class="btn btn-primary">Ver Productos</a>
                 </div>
                 <div class="col-md-6">
                     <img src="Imagenes/Inicio.jpg" alt="Imagen de la Tienda">

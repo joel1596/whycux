@@ -2,8 +2,9 @@ CREATE TABLE products (
     product_id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     description TEXT,
-    price DECIMAL(10, 2) NOT NULL,
+    price DECIMAL(10, 3) NOT NULL,
     category_id INT(11),
+    image VARCHAR(255) DEFAULT 'assets/no_image.png',
     PRIMARY KEY (product_id)
 );
 

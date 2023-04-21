@@ -1,7 +1,7 @@
 -- insert some categories
-INSERT INTO categories (name) VALUES ('Men');
-INSERT INTO categories (name) VALUES ('Women');
-INSERT INTO categories (name) VALUES ('Kids');
+INSERT INTO categories (name) VALUES ('Hombres');
+INSERT INTO categories (name) VALUES ('Mujeres');
+INSERT INTO categories (name) VALUES ('Niños');
 
 -- insert some users
 INSERT INTO users (username, password, email) VALUES ('john', 'password1', 'john@example.com');
@@ -9,13 +9,13 @@ INSERT INTO users (username, password, email) VALUES ('jane', 'password2', 'jane
 INSERT INTO users (username, password, email) VALUES ('bob', 'password3', 'bob@example.com');
 
 -- insert some products
-INSERT INTO products (name, description, price, category_id) VALUES ('Men''s T-Shirt', '100% Cotton, Crewneck, Short Sleeve', 19.99, 1);
-INSERT INTO products (name, description, price, category_id) VALUES ('Women''s Dress', 'Floral Print, V-Neck, Long Sleeve', 39.99, 2);
-INSERT INTO products (name, description, price, category_id) VALUES ('Kids'' Jeans', 'Slim Fit, Adjustable Waistband, Five Pockets', 29.99, 3);
-INSERT INTO products (name, description, price, category_id) VALUES ('Men''s Hoodie', 'Cotton/Polyester Blend, Drawstring Hood, Kangaroo Pocket', 49.99, 1);
-INSERT INTO products (name, description, price, category_id) VALUES ('Women''s Skirt', 'Denim, A-Line, Button Front', 29.99, 2);
-INSERT INTO products (name, description, price, category_id) VALUES ('Kids'' T-Shirt', 'Cotton/Polyester Blend, Crewneck, Short Sleeve', 14.99, 3);
-INSERT INTO products (name, description, price, category_id) VALUES ('Men''s Jeans', 'Straight Fit, Five Pockets, Zip Fly', 59.99, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Camiseta para Hombre', '100% Algodón, Cuello Redondo, Manga Corta', 19.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Vestido para Mujer', 'Estampado Floral, Escote en V, Manga Larga', 39.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Jeans para Niños', 'Corte Ajustado, Cintura Ajustable, Cinco Bolsillos', 29.990, 3);
+INSERT INTO products (name, description, price, category_id) VALUES ('Sudadera con Capucha para Hombre', 'Mezcla de Algodón/Poliéster, Capucha con Cordón, Bolsillo Canguro', 49.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Falda para Mujer', 'Denim, Corte A, Botones al Frente', 29.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Camiseta para Niños', 'Mezcla de Algodón/Poliéster, Cuello Redondo, Manga Corta', 14.990, 3);
+INSERT INTO products (name, description, price, category_id) VALUES ('Jeans para Hombre', 'Corte Recto, Cinco Bolsillos, Cierre con Cremallera', 59.990, 1);
 
 -- insert some contacts
 INSERT INTO contacts (name, email, message) VALUES ('Customer 1', 'customer1@example.com', 'I have a question about one of your products.');

@@ -26,30 +26,33 @@
                         <div class="col-md-6 col-lg-7 d-flex align-items-center">
                             <div class="card-body p-4 p-lg-5 text-black">
 
-                                <form action="controllers/login.controller.php" method="post">
+                                <form action="controllers/signup.controller.php" method="post">
 
                                     <div class="d-flex align-items-center mb-3 pb-1">
                                         <img src="assets/logo-icon-black.png" alt="logo" style="width: 2em; height: 2em;" />
                                         <span class="h2 fw-bold mb-0">Whycux</span>
-
                                     </div>
 
-                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Inicia sesion en tu cuenta</h5>
+                                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Crea una cuenta</h5>
 
                                     <div class="form-outline mb-4">
-                                        <input type="email" id="form2Example17" name="email" class="form-control form-control-lg" required />
-                                        <label class="form-label" for="form2Example17">Correo electrónico</label>
+                                        <input type="text" id="username" name="username" class="form-control form-control-lg" required />
+                                        <label class="form-label" for="username">Nombre de usuario</label>
                                     </div>
 
                                     <div class="form-outline mb-4">
-                                        <input type="password" id="form2Example27" name="password" class="form-control form-control-lg" required />
-                                        <label class="form-label" for="form2Example27">Contraseña</label>
+                                        <input type="email" id="email" name="email" class="form-control form-control-lg" required />
+                                        <label class="form-label" for="email">Correo electrónico</label>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input type="password" id="password" name="password" class="form-control form-control-lg" required />
+                                        <label class="form-label" for="password">Contraseña</label>
                                     </div>
 
                                     <div class="pt-1 mb-4">
-                                        <button class="btn btn-primary btn-lg btn-block" id="orange" type="submit">Login</button>
+                                        <button class="btn btn-primary btn-lg btn-block" id="orange" type="submit">Registrarse</button>
                                     </div>
-                                    <p class="mb-5 pb-lg-2" style="color: #393f81;">No tienes cuenta? <a href="signup.php" style="color: #393f81;">Registrate aqui</a></p>
                                 </form>
 
                             </div>

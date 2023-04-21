@@ -1,0 +1,15 @@
+INSERT INTO products (name, description, price, category_id) VALUES ('Camisa Polo de Hombre', 'Algodón, Tapeta de Dos Botones, Manga Corta', 24.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Blusa de Mujer', 'Chifón, Estampado Floral, Escote en V, Sin Mangas', 34.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Sudadera con Capucha para Niños', 'Mezcla de Algodón/Poliéster, Cierre de Cremallera, Bolsillo de Canguro', 24.990, 3);
+INSERT INTO products (name, description, price, category_id) VALUES ('Pantalón Corto de Hombre', 'Chino, Frente Plano, Cuatro Bolsillos', 39.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Jeans de Mujer', 'Ajuste Ajustado, Cintura Alta, Cinco Bolsillos', 49.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Vestido para Niños', 'Algodón, Estampado Floral, Cuello Redondo, Manga Corta', 19.990, 3);
+INSERT INTO products (name, description, price, category_id) VALUES ('Suéter de Hombre', 'Lana Merino, Escote en V, Manga Larga', 69.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Cárdigan de Mujer', 'Algodón, Botones en la Parte Delantera, Manga Larga', 44.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Pantalón Corto para Niños', 'Algodón, Cintura Elástica, Dos Bolsillos', 14.990, 3);
+INSERT INTO products (name, description, price, category_id) VALUES ('Camisa Polo de Hombre', 'Mezcla de Algodón/Poliéster, Manga Corta, Tapeta de Tres Botones', 29.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Blusa de Mujer', 'Seda, Cuello con Volantes, Manga Larga', 69.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Sudadera con Capucha para Niños', 'Mezcla de Algodón/Poliéster, Cierre Completo de Cremallera, Bolsillo de Canguro', 24.990, 3);
+INSERT INTO products (name, description, price, category_id) VALUES ('Chinos de Hombre', 'Ajuste Ajustado, Frente Plano, Cuatro Bolsillos', 39.990, 1);
+INSERT INTO products (name, description, price, category_id) VALUES ('Jeans de Mujer', 'Ajuste Ajustado, Cintura Alta, Cinco Bolsillos', 49.990, 2);
+INSERT INTO products (name, description, price, category_id) VALUES ('Pantalón Corto para Niños', 'Algodón, Cintura Elástica, Dos Bolsillos Delanteros', 19.990, 3);

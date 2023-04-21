@@ -38,12 +38,12 @@ if ($products->num_rows > 0) {
         echo "<div class='col-md-4'>";
 
         echo  "  <div class='card mx-auto col-md-3 col-10 mt-5'>";
-        echo  "  <img class='mx-auto img-thumbnail' src='https://images.teemill.com/k5rc7zgxhkkhb5uzf0xipuy2kkks5oksoqmmpafcxfgpod8z.png.webp?w=1080&v=2' width='250px' height='auto' />";
+        echo  "  <img class='mx-auto img-thumbnail' src='{$row['image']}' width='250px' height='auto' style='min-height:320px;' />";
         echo  "  <div class='card-body text-center mx-auto'>";
         echo  "      <div class='cvp'>";
         echo  "          <h5 class='card-title font-weight-bold'>{$row['name']}</h5>";
-        echo  "      <p class='card-text'>$  {$row['price']}</p>";
-        echo  "       <button class='btn details px-auto' style='background-color: #42465A; color: white;'>ver detalles</button><br />";
+        echo  "      <p class='card-text'>CRC  {$row['price']}</p>";
+        echo  "       <a href='single_product.php?id={$row['product_id']}' data-id='{$row['product_id']}' class='btn details px-auto' style='background-color: #42465A; color: white;'>ver detalles</a><br />";
         echo  "        <button class='btn cart px-auto' data-id='{$row['product_id']}' data-cart_id='$cart_id'>AGREGAR EN EL CARRITO</button>";
         echo  "     </div>";
         echo  "  </div>";

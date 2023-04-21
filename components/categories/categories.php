@@ -21,6 +21,10 @@
                                     data-category-id='{$row['category_id']}'
                                     >{$row['name']} </a>";
                                 }
+                                echo "<a id='categories_links'
+                                    style='background-color: #42465A' href='http://localhost/whycux/products.php' class='list-group-item'
+                                    data-category-id='0'
+                                    >Todas las categorias </a>";
                             } else {
                                 echo "<h3>No hay categorias</h3>";
                             }
