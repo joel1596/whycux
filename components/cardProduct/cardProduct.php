@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="components/cardProduct/card.css">
 <link rel="stylesheet" type="text/css" href="components/navbar/navbar.css">
 <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/pimagen1.css">
 <?php
 require_once 'DAL/products.php';
 require_once 'DAL/cart.php';
@@ -38,7 +39,7 @@ if ($products->num_rows > 0) {
         echo "<div class='col-md-4'>";
 
         echo  "  <div class='card mx-auto col-md-3 col-10 mt-5'>";
-        echo  "  <img class='mx-auto img-thumbnail' src='{$row['image']}' width='250px' height='auto' style='min-height:320px;' />";
+        echo "<img class='mx-auto img-thumbnail custom-image' src='{$row['image']}' />";
         echo  "  <div class='card-body text-center mx-auto'>";
         echo  "      <div class='cvp'>";
         echo  "          <h5 class='card-title font-weight-bold'>{$row['name']}</h5>";
