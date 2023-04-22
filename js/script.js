@@ -1,12 +1,19 @@
-
+// Obtener los elementos de los botones
+const likeButton = document.getElementById('vote-like');
+const dislikeButton = document.getElementById('vote-dislike');
 
 
 $(document).ready(function () {
     obtieneVotacion();
-    $('input[name=vote]').on('change', function () {
-        registraVotacion($('input[name=vote]:checked').val());
-    });
 });//(document).ready
+
+likeButton.addEventListener('click', () => {
+    registraVotacion(0);
+});
+
+dislikeButton.addEventListener('click', () => {
+    registraVotacion(1);
+});
 
 
 function obtieneVotacion(pvoto) {
@@ -66,23 +73,48 @@ function registraVotacion(pvoto) {
 function InsercionVotacionExistosa(ObjetoJSON) {
     let porcentajeSi = Math.round(100 * (ObjetoJSON.Si / (ObjetoJSON.No + ObjetoJSON.Si)), 2);
     let porcentajeNo = Math.round(100 * (ObjetoJSON.No / (ObjetoJSON.No + ObjetoJSON.Si)), 2);
-    $("#resultado").empty()
-    $("#resultado").append("<tr>");
-    $("#resultado").append("<td> Yes </td>");
-    $("#resultado").append("<td> <img src='imagenes/yes.png' width='" + porcentajeSi + "'height='20'>" + porcentajeSi + "% </td>");
+    $("#resultado").empty();
+
+    $("#resultado").append("<tr class='resultado-row'>");
+    $("#resultado").append("<td class='resultado-data'></td>");
+    $("#resultado").append("<td class='resultado-data'><img src='imagenes/yes.png' width='" + porcentajeSi + "' height='20'><span class='porcentaje'>" + porcentajeSi + "%</span></td>");
     $("#resultado").append("</tr>");
-    $("#resultado").append("<tr>");
-    $("#resultado").append("<td> No </td>");
-    $("#resultado").append("<td> <img src='imagenes/no.png' width='" + porcentajeNo + "'height='20'>" + porcentajeNo + "% </td>");
+    $("#resultado").append("<tr class='resultado-row'>");
+    $("#resultado").append("<td class='resultado-data'></td>");
+    $("#resultado").append("<td class='resultado-data'><img src='imagenes/no.png' width='" + porcentajeNo + "' height='20'><span class='porcentaje'>" + porcentajeNo + "%</span></td>");
     $("#resultado").append("</tr>");
-    LimpiaCampos();
+
+    // Agregar clase "resultado-header" a la fila de encabezado
+    $("#resultado tr:first-child").addClass("resultado-header");
+
+    // Aplicar estilos CSS a las filas y celdas con la clase "resultado-row"
+    $(".resultado-row").css({
+        "background-color": "#f2f2f2",
+        "border-bottom": "1px solid #ddd"
+    });
+
+    // Aplicar estilos CSS a las celdas de datos
+    $(".resultado-data").css({
+        "text-align": "left",
+        "padding": "12px",
+        "font-size": "14px"
+    });
+
+    // Aplicar estilos CSS a las celdas de encabezado
+    $(".resultado-header th").css({
+        "background-color": "#4CAF50",
+        "color": "white",
+        "text-align": "left",
+        "padding": "12px",
+        "font-size": "14px"
+    });
+
+    // Aplicar estilos CSS al elemento span dentro de las celdas
+    $(".porcentaje").css({
+        "display": "inline-block",
+        "margin-left": "5px"
+    });
 }//Fin InsercionTutoriaExitosa
-
-
-function LimpiaCampos() {
-    $("input[name=vote][value='0']").prop("checked", false);
-    $("input[name=vote][value='1']").prop("checked", false);
-}//Fin LimpiaCampos
 
 
 function InsercionVotacionFallida(TextoJSON) {

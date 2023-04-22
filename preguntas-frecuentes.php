@@ -56,19 +56,19 @@
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <h2 class="fs-6 fw-semibold">1. ¿Dónde está mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <div class="my-2">Para informacion de tu pedido comunicate al 8555 5555.
                             </div>
                             <h2 class="fs-6 fw-semibold">2. ¿Cúando llegará mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <div class="my-2">Los pedidos tienen una duracion de 3 dias en entregas normales dentro del GAM, fuera del GAM la duracion es de 5 dias.
                             </div>
                             <h2 class="fs-6 fw-semibold">3. ¿Qué hacer si no llega mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <div class="my-2">Por favor comunicate al 8555 5555.
                             </div>
                             <h2 class="fs-6 fw-semibold">4. ¿Cómo sigo el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <div class="my-2">Al realizar la compra recibiras un numero de rastreo.
                             </div>
                             <h2 class="fs-6 fw-semibold">5. ¿Cúanto tiempo se demora el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <div class="my-2">3 dias en entregas normales dentro del GAM, fuera del GAM la duracion es de 5 dias..
                             </div>
                         </div>
                     </div>
@@ -87,20 +87,20 @@
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <h2 class="fs-6 fw-semibold">1. ¿Dónde está mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">1. ¿Realizan reembolsos?</h2>
+                            <div class="my-2">No, la compra es final.
                             </div>
-                            <h2 class="fs-6 fw-semibold">2. ¿Cúando llegará mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">2. ¿Realizan cambios?</h2>
+                            <div class="my-2">Si, en caso de que el producto este defectuoso.
                             </div>
-                            <h2 class="fs-6 fw-semibold">3. ¿Qué hacer si no llega mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">3. ¿Cuales son los metodos de pago aceptados?</h2>
+                            <div class="my-2">Los metodos que aceptamos son por sinpe y tarjeta.
                             </div>
-                            <h2 class="fs-6 fw-semibold">4. ¿Cómo sigo el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">4. ¿Hay descuentos disponibles para grandes cantidades?</h2>
+                            <div class="my-2">Si, esta sujeto a terminos y condiciones, consultar directamente al numero 8555 5555.
                             </div>
-                            <h2 class="fs-6 fw-semibold">5. ¿Cúanto tiempo se demora el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">5. ¿Existe el metodo de pagos a plazos?</h2>
+                            <div class="my-2">No, no ofrecemos esa opcion.
                             </div>
                         </div>
                     </div>
@@ -120,20 +120,10 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <h2 class="fs-6 fw-semibold">1. ¿Dónde está mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">2. ¿Cúando llegará mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">3. ¿Qué hacer si no llega mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">4. ¿Cómo sigo el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">5. ¿Cúanto tiempo se demora el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">1. ¿Cual es el proceso para una devolucion?</h2>
+                            <div class="my-2">Contactarnos por medio del 8555 5555 en donde se iniciara un proceso para verificar si aplica la devolucion.
+                            <h2 class="fs-6 fw-semibold">2. ¿Cúanto tiempo se demora una devolucion?</h2>
+                            <div class="my-2">La duracion es de 7 a 15 dias aproximadamente.
                             </div>
                         </div>
                     </div>
@@ -152,20 +142,8 @@
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="heading4"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <h2 class="fs-6 fw-semibold">1. ¿Dónde está mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">2. ¿Cúando llegará mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">3. ¿Qué hacer si no llega mi pedido?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">4. ¿Cómo sigo el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
-                            </div>
-                            <h2 class="fs-6 fw-semibold">5. ¿Cúanto tiempo se demora el envio?</h2>
-                            <div class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, odit.
+                            <h2 class="fs-6 fw-semibold">1. ¿Tienen promociones?</h2>
+                            <div class="my-2">Si, normalmente realizamos promociones, que son publicadas en redes sociales y en nuestra pagina.
                             </div>
                         </div>
                     </div>

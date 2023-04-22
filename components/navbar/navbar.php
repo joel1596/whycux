@@ -11,6 +11,17 @@
                 <li class="nav-item"><a class="nav-link" href="home.php" data-abc="true">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="products.php" data-abc="true">Productos</a></li>
                 <li class="nav-item"><a class="nav-link" href="contactenos.php" data-abc="true">Contactenos</a></li>
+                <li class="nav-item"><a class="nav-link" href="preguntas-frecuentes.php" data-abc="true">Preguntas frecuentes</a></li>
+                <?php
+                    session_start();
+
+                    $user = $_SESSION['user'];
+                    
+                    if ($user['username'] == 'john') {
+                      echo '<li class="nav-item"><a class="nav-link" href="consulta-datos.php" data-abc="true">Administrar</a></li>';
+                    }
+                    ?>
+
             </ul>
             <ul class="navbar-nav d-flex align-items-center">
                 <li class="nav-item">
@@ -23,7 +34,7 @@
 
                     <?php
                     //sigue con la conexion o la crea si no hay
-                    session_start();
+                    
 
                     $user = $_SESSION['user'];
                     echo  "<a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
@@ -72,7 +83,9 @@
 
                 <div class="col-md-2">
                     <div class="d-flex d-none d-md-flex flex-row align-items-center">
-                        <span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span>
+                    <a href="checkout.php" class="shop-bag">
+                            <i class="bx bxs-shopping-bag"></i>
+                        </a>
                         <div class="d-flex flex-column ms-2">
                             <span class="qty">Carrito vacio</span>
                             <span class="price fw-bold">CRC 0.00</span>

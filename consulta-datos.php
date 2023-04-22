@@ -49,7 +49,7 @@
     <?php
 
 //1. Establecer la conexión con el motor de base de datos y seleccionar la base de datos que  vamos a utilizar cuando trabajamos DML
-$conexion = new mysqli('localhost', 'root', '', 'whycux');
+$conexion = new mysqli('localhost', 'root', 'California07', 'whycux');
 
 if($conexion->connect_error != null){
     echo "Ocurrió un error al establecer la conexión: {$conexion->connect_error}";

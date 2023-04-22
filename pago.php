@@ -46,7 +46,7 @@
 
     <div class="top container">
         <form action="php2/procesar-formulario.php" method="post" class="row g-3 needs-validation" novalidate>
-            <h2 class="imagen">Contáctenos</h2>
+            <h2 class="imagen">Pagar</h2>
             <div class="col-md-4">
                 <div class="form-outline">
                     <input type="text" class="form-control" name="nombre" id="nombre" required />
@@ -73,16 +73,13 @@
             <div class="col-md-6">
                 <div class="form-outline">
                     <input type="text" class="form-control" name="ciudad" id="ciudad" required />
-                    <label for="ciudad" class="form-label">Ciudad</label>
-                    <div class="invalid-feedback">Proporcione una ciudad.</div>
+                    <label for="ciudad" class="form-label">Direccion</label>
+                    <div class="invalid-feedback">Proporcione su direccion.</div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-outline">
-                    <textarea id="mensaje" class="form-control" name="mensaje" class="form-control" rows="5"
-                        required></textarea>
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <div class="invalid-feedback">Digite el mensaje</div>
+                <h4 class="total">Total:¨CRC</h4>
 
                 </div>
             </div>
@@ -94,16 +91,9 @@
                 </div>
             </div>
             <div class="col-12">
-                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="btn btn-primary" type="submit">Pagar</button>
             </div>
-            <div class="container col-md-6">
-                <p>¿Tiene preguntas o comentarios? No dude en ponerse en contacto con nosotros.</p>
-                <ul>
-                    <li><i class="fas fa-phone"></i> +(506) 8555-5555</li>
-                    <li><i class="fas fa-envelope"></i> whycuxcr@ejemplo.com</li>
-                    <li><i class="fas fa-map-marker-alt"></i> San Jose, San Pedro, Costa Rica</li>
-                </ul>
-            </div>
+        
         </form>
 
     </div>
@@ -116,6 +106,7 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="text/javascript"></script>
     <script src="js/contactenos.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

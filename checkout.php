@@ -83,7 +83,8 @@
             <br>
             <h4 class="total">Total:¨CRC</h4>
             <br>
-            <button class="btn btn-primary">Completar compra</button>
+            <a href="pago.php"><button href="pago.php" class="btn btn-primary">Completar compra</button></a>
+         
 
         </div>
     

@@ -52,5 +52,16 @@ CREATE TABLE payment_methods (
     PRIMARY KEY (payment_method_id)
 );
 
+CREATE TABLE contactenos (
+contactenos_id INT(11) NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(255) NOT NULL,
+apellidos VARCHAR(255) NOT NULL,
+correo VARCHAR(255) NOT NULL,
+ciudad VARCHAR(255) NOT NULL,
+mensaje VARCHAR(255) NOT NULL,
+PRIMARY KEY (contactenos_id)
+
+);
+
 ALTER TABLE products ADD CONSTRAINT fk_category_id FOREIGN KEY (category_id) REFERENCES categories(category_id);
 ALTER TABLE carts ADD CONSTRAINT fk_user_id FOREIGN KEY (user_id) REFERENCES users(user_id);

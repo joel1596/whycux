@@ -74,31 +74,28 @@
                         <img src="Imagenes/nike.png" class="card-img-top" alt="Producto Destacado">
                         <div class="card-body">
                             <h5 class="card-title">Camisa de Nike</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                                aliquam orci. Vestibulum nec eros vel nisl malesuada facilisis.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
+                            <p class="card-text">Nada más que sensaciones libres y relajadas. Esta camiseta nike para jóvenes se inspira en la naturaleza. Nos inspiramos en la naturaleza y le dimos un giro contemporáneo con una versión actualizada de nuestro clásico logo de montaña y colores frescos..</p>
+                            <a href="login.php" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="Imagenes/nike.png" class="card-img-top" alt="Producto Destacado">
+                        <img src="Imagenes/adidas.jpg" class="card-img-top" alt="Producto Destacado">
                         <div class="card-body">
-                            <h5 class="card-title">Camisa de Nike</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                                aliquam orci. Vestibulum nec eros vel nisl malesuada facilisis.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
+                            <h5 class="card-title">Camisa de Adidas</h5>
+                            <p class="card-text">La mayoría de las camisas Adidas están hechas de materiales transpirables y ligeros, como el poliéster o el algodón, que ayudan a mantener la comodidad durante la actividad física. Además, muchas de las camisas Adidas cuentan con tecnologías como la tecnología Climalite, que ayuda a evaporar el sudor de la piel y a mantener el cuerpo fresco y seco..</p>
+                            <a href="login.php" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="Imagenes/nike.png" class="card-img-top" alt="Producto Destacado">
+                        <img src="Imagenes/gymshark.jpg" class="card-img-top" alt="Producto Destacado">
                         <div class="card-body">
-                            <h5 class="card-title">Camisa de Nike</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
-                                aliquam orci. Vestibulum nec eros vel nisl malesuada facilisis.</p>
-                            <a href="#" class="btn btn-primary">Comprar</a>
+                            <h5 class="card-title">Camisa de Gym Shark</h5>
+                            <p class="card-text">Una camiseta esencial para cualquier bolsa de gimnasio, la camiseta Outline contiene un 5% de elastano para un ligero estiramiento y está diseñada con un ajuste regular para un uso cómodo, para asegurar que se mueva cuando se lo pidas.</p>
+                            <a href="login.php" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
